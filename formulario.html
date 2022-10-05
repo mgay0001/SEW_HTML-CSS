@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>Titulo</title>
+
+    <!-- Autor -->
+    <meta name ="Bootsrap - Formulario" content ="Laura Gómez" />
+
+    <!-- Descripción -->
+    <meta name ="description" content ="aquí cada documento debe tener la descripción del contenido concreto del mismo" />
+
+    <!-- Palabras clave -->
+    <meta name ="keywords" content ="nombre, apellido, opinión" />
+
+    <!-- Definir la ventana gráfica -->
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!-- añadir el elemento link de enlace a la hoja de estilo dentro del <head> del documento html -->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a title="Inicio" tabindex=
+            "1" accesskey="I" href="index.html">Inicio</a>
+            <a title="Caracteristicas" tabindex=
+            "2" accesskey="A" href="caracteristicas.html">Características</a>
+            <a title="Ventajas y desventajas" tabindex=
+            "3" accesskey="V" href="des-ventajas.html">Ventajas y desventajas</a>
+        </nav>
+    </header>
+    <h1>Framework Bootstrap</h1>
+        <h2>Escribe tu opinión sobre Bootsrap</h2>
+            <form name="datos">
+                <p><input type="text">Nombre</p>
+                <p><input type="text">Apellido</p>
+                <p><input type="email">E-mail</p>
+
+                <fieldset>
+                    <legend>Selecciona tu género</legend>
+                    <p><label><input type="radio" name="genero" value="mujer" checked> Mujer</label></p>
+                    <p><label><input type="radio" name="genero" value="hombre"> Hombre</label></p>
+                    <p><label><input type="radio" name="genero" value="no decirlo"> Prefiero no decirlo</label></p>
+                </fieldset>
+
+                <p><label>Escribe una opinión</label></p>
+                <p><textarea cols="25" rows="10"></textarea></p>
+
+                <p><input type="reset" value="Limpiar" /></p>
+                <p><input type="submit" value="Enviar" /></p>
+            </form>
+</body>
+</html>
