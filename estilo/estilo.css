@@ -9,7 +9,7 @@ body {
  
  /*Selector Specificity: (0, 0, 1)*/
 h1 {
-    color:  rgb(251, 255, 4);
+    color:  rgb(255, 255, 255);
     font-family: "Cambria Math"; 
     background-color:#4e096e; 
     text-align: center;  
