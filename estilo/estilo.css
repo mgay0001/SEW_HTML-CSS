@@ -3,7 +3,7 @@
 /*Selector Specificity: (0, 0, 1)*/
 body {
     font-family: "Cambria Math"; 
-    color: rgb(0, 0, 0); 
+    color: rgb(251, 255, 4);
     background-color:#a27dad; 
  }
  
@@ -44,23 +44,32 @@ table {
     margin: 25px 0; font-size: 1em; 
     font-family: "Cambria Math";
     min-width: 450px; 
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15); 
+    box-shadow: 0 0 20px rgb(251, 255, 4); 
 }
 
 table tr 
 { 
-    background-color: #4e0e53; 
+    background-color: #76247a;  
     color: rgb(251, 255, 4);
     text-align: middle; 
 }
 
 table thead tr 
 { 
-    background-color:#4e0e53; 
+    background-color:#552458; 
     color: rgb(251, 255, 4);
     text-align: middle; 
 }
 
+table caption
+{
+    font-family: "Cambria Math";
+    min-width: 450px; 
+    background-color:#552458; 
+    color: rgb(251, 255, 4);
+    text-align: middle; 
+    
+}
 table th, table td 
 { 
     padding: 12px 15px; 
