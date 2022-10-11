@@ -28,6 +28,11 @@ ul, p, table, dl{
     color: #FFF700;
 }
 
+a {
+color: #FFF700;
+background-color:  #592259;
+}
+
 h1 {
   background-color: #592259;
   text-align: center;
@@ -42,7 +47,6 @@ h2 {
     font-size: 1.5em;
 }
 
-
 nav {
     background-color: #DB9FDB;
     padding: 0.625em 0;
@@ -56,5 +60,6 @@ footer {
     font-size: 1em;
     color: rgb(0, 0, 0);
 }
+
 
 
