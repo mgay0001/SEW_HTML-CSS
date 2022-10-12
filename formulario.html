@@ -50,13 +50,18 @@
 
                 <fieldset>
                     <legend>Selecciona tu género</legend>
-                    <p><label><input type="radio" name="genero" value="mujer" checked> Mujer</label></p>
-                    <p><label><input type="radio" name="genero" value="hombre"> Hombre</label></p>
-                    <p><label><input type="radio" name="genero" value="otro"> Otro</label></p>
-                    <p><label><input type="radio" name="genero" value="no decirlo"> Prefiero no decirlo</label></p>
+                    <p><input type="radio" name="genero" id="mujer"/> 
+                        <label for="mujer" > Mujer</label></p>
+                    <p><input type="radio" name="genero" id="hombre"/> 
+                        <label for="hombre" > Hombre</label></p>
+                    <p><input type="radio" name="genero" id="otro"/> 
+                        <label for="otro" > Otro</label></p>
+                    <p><input type="radio" name="genero" id="nodecirlo"/> 
+                    <label for="nodecirlo" > No decirlo</label></p>
                 </fieldset>
 
-                <label>Escribe una sugerencia: <textarea cols="25" rows="10"></textarea></label>
+                <p><label for="sugerencia"> Escribe una sugerencia: </label></p>
+                <textarea id="sugerencia" cols="25" rows="10"></textarea>
 
                 <p><input type="reset" value="Limpiar" /></p>
                 <p><input type="submit" value="Enviar" /></p>
