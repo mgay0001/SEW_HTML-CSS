@@ -39,14 +39,16 @@
             "4" accesskey="S" href="formulario.html">Sugerencias</a>
         </nav>
     </header>
-    <h1>Framework Bootstrap</h1>
+    <h1>Framework Bootstrap</h1>            
         <h2>Danos tu opinión sobre qué deberíamos mejorar en la web</h2>
             <form name="datos">
+                <p><label for="rango">¿Cómo de satisfecho está con la información de la página?</label>
+                    <input id="rango" type="range"/></p>
                 <p><label>Nombre: <input type="text"></label></p>
                 <p><label>Apellido: <input type="text"></label></p>
                 <p><label>E-mail: <input type="email"></label></p>
-                <p><label>Teléfono: <input type="number"></label></p>
-                <p><label>Edad: <input type="number"></label></p>
+                <p><label>Teléfono: <input type="number" min="0"></label></p>
+                <p><label>Edad: <input type="number" min="0"></label></p>
 
                 <fieldset>
                     <legend>Selecciona tu género</legend>
@@ -57,7 +59,7 @@
                     <p><input type="radio" name="genero" id="otro"/> 
                         <label for="otro" > Otro</label></p>
                     <p><input type="radio" name="genero" id="nodecirlo"/> 
-                    <label for="nodecirlo" > No decirlo</label></p>
+                    <label for="nodecirlo" > Prefiero no decirlo</label></p>
                 </fieldset>
 
                 <p><label for="sugerencia"> Escribe una sugerencia: </label></p>

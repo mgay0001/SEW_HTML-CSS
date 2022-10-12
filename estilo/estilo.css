@@ -1,36 +1,13 @@
-/*Laura Gómez Menéndez, UO275725*/
-.item1 { grid-area: header; }
-.item2 { grid-area: h1; }
-.item3 { grid-area: h2; }
-.item4 { grid-area: footer; }
-.item5 { grid-area: img;}
 
-body {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'h1 h1 h1 h1 h1 h1'
-    'h1 h1 h1 h2 h2 h2'
-    'footer footer footer footer footer footer';
-  gap: 10px;
-  background-color: #782F7F;
-  color: #FFF700;
-  padding: 0.625em;
-}
-
-form{
-    text-align: center;
-}
-
-ul, p, table, dl{
+p{
     background-color: #782F7F;
     font-size: 1.25em;
     color: #FFF700;
 }
 
 a {
-color: #FFF700;
-background-color:  #592259;
+  color: #FFF700;
+  background-color:  #592259;
 }
 
 h1 {
@@ -52,6 +29,7 @@ nav {
     padding: 0.625em 0;
     font-size: 1.3em;
     color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 footer {
