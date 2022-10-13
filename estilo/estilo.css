@@ -28,12 +28,13 @@ h2 {
 header{
   text-align: center;
 }
+
 nav {
     background-color: #DB9FDB;
-    font-size: 1.3em;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 3em 10em;
+    padding: 1.25em 0;
+    font-size: 1.5em;
     display: inline-block;
 }
 
