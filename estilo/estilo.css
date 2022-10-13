@@ -13,15 +13,22 @@ a {
 h1 {
   background-color: #592259;
   text-align: center;
-  padding: 20px 0;
+  padding: 1.25em 0;
   font-size: 2.5em;
 }
 
 h2 {
     background-color: #592259;
     text-align: center;
-    padding: 20px 0;
+    padding: 1.25em 0;
     font-size: 1.5em;
+}
+
+h3{
+  background-color: #592259;
+    text-align: left;
+    padding: 0.625em 0;
+    font-size: 1.2em;
 }
 
 nav {
