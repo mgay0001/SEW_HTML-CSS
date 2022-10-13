@@ -12,7 +12,7 @@ body {
       'picture picture picture article article article'
       'article article article article article article'
       'footer footer footer footer footer footer';
-    gap: 10px;
+    gap: 0.625em;
     background-color: #782F7F;
     color: #FFF700;
 }
