@@ -63,7 +63,7 @@ main article{
     grid-template-areas: 
     "header"
     "menu"
-    "section"
+    "article"
     "footer";
     grid-template-columns: none;
     grid-row-gap: 10px;
