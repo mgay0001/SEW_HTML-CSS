@@ -1,7 +1,4 @@
 
-body{
-  font-style: Cambria Math, sans serif;
-}
 
 p {
     background-color: #782F7F;
@@ -34,6 +31,18 @@ nav {
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 0.625em 0;
+    display: block;
+}
+
+nav a {
+  padding: 0.625em;
+  background-color: #DB9FDB;
+  color: #FFF700;
+}
+
+nav a:hover{
+  color: #000000;
+  background-color: #CB80C5;
 }
 
 footer {
