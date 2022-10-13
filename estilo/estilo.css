@@ -57,11 +57,27 @@ main article{
   padding: 1em;
 }
 
-main section{
-  vertical-align: center;
-  padding: 1em;
+@media only screen and (max-width: 700px){
+  /*Especificidad: 001*/
+  body {
+    grid-template-areas: 
+    "header"
+    "menu"
+    "section"
+    "footer";
+    grid-template-columns: none;
+    grid-row-gap: 10px;
+  }
+  /*Especificidad (0,0,1)*/
+  img{
+      width: 75%;
+      height: auto;
+  }
+  /*Especificidad (0,0,1)*/
+  video{
+      max-width: 75%;
+      height: auto;
+  }
 }
-
-
 
 
