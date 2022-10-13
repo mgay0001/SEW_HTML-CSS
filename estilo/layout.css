@@ -6,13 +6,15 @@
 
 body {
     display: grid;
+  
     grid-template-areas:
       'header header header header header header'
-      'h1 h1 h1 h1 h1 h1'
-      'h1 h1 h1 h2 h2 h2'
+      'picture picture picture article article article'
+      'article article article article article article'
       'footer footer footer footer footer footer';
     gap: 10px;
     background-color: #782F7F;
     color: #FFF700;
-    padding: 0.625em;
 }
+
+
