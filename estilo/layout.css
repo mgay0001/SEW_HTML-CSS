@@ -1,20 +1,18 @@
 
-.item1 { grid-area: header; }
-.item2 { grid-area: h1; }
-.item3 { grid-area: h2; }
-.item4 { grid-area: footer; }
+header { grid-area: header; }
+article { grid-area: article; }
+footer { grid-area: footer; }
 
 body {
-    display: grid;
-  
-    grid-template-areas:
-      'header header header header header header'
-      'picture picture picture article article article'
-      'article article article article article article'
-      'footer footer footer footer footer footer';
-    gap: 0.625em;
-    background-color: #782F7F;
-    color: #FFF700;
+  display: grid;
+  font-family: "Cambria Math", serif;
+  grid-template-areas:
+  "header header header"
+  "article article article"
+  "footer footer footer";
+  gap: 0.625em;
+  background-color: #782F7F;
+  color: #FFF700;
 }
 
 
