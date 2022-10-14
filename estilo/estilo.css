@@ -35,9 +35,9 @@ nav {
     text-align: center;
     padding: 1.25em 0;
     font-size: 1.5em;
-    display: inline-block;
+    display: block;
 }
-
+/*
 nav a {
   padding: 0.625em;
   background-color: #DB9FDB;
@@ -47,7 +47,7 @@ nav a {
 nav a:hover{
   color: #000000;
   background-color: #CB80C5;
-}
+}*/
 
 footer {
     background-color: #782F7F;
