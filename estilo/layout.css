@@ -25,7 +25,7 @@ body {
     grid-template-columns: none;
     grid-row-gap: 0.625em;
   }
-  nav, img,  video{
+  table, nav, img,  video{
       max-width: 75%;
       height: auto;
   }
