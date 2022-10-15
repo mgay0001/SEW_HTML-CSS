@@ -9,6 +9,7 @@ table, th, td, tr{
     border-width: 0.0625em;
     border-style: solid;
     border-color: rgb(0, 0, 0);
+    font-size: 1em;
   }
 
 

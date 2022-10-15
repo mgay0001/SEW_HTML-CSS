@@ -27,27 +27,28 @@ header{
   text-align: center;
 }
 
-nav {
+nav, footer {
     background-color: #DB9FDB;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 1.25em 0;
+    padding: 0.5em;
     font-size: 1.5em;
     display: block;
 }
 
 
-nav a {
-  padding: 0.625em;
+/*Especificidad (0,0,2)*/
+nav a , footer p{
+  display: block;
+  padding: 0.2em;
   background-color: #DB9FDB;
   color: #000000;
 }
 
-/*
 nav a:hover{
   color: #000000;
   background-color: #CB80C5;
-}*/
+}
 
 footer {
     background-color: #782F7F;
