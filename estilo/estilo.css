@@ -1,14 +1,17 @@
+/*Especificidad (0,0,1)*/
 p {
     background-color: #782F7F;
     font-size: 1.25em;
     color: #FFF700;
 }
 
+/*Especificidad (0,0,1)*/
 a {
   color: #FFF700;
   background-color:  #592259;
 }
 
+/*Especificidad (0,0,1)*/
 h1 {
   background-color: #592259;
   text-align: center;
@@ -16,6 +19,7 @@ h1 {
   font-size: 2.5em;
 }
 
+/*Especificidad (0,0,1)*/
 h2 {
     background-color: #592259;
     text-align: center;
@@ -23,10 +27,12 @@ h2 {
     font-size: 1.5em;
 }
 
+/*Especificidad (0,0,1)*/
 header{
   text-align: center;
 }
 
+/*Especificidad (0,0,1)*/
 nav, footer {
     background-color: #DB9FDB;
     color: rgb(0, 0, 0);
@@ -36,6 +42,7 @@ nav, footer {
     display: block;
 }
 
+/*Especificidad (0,0,2)*/
 nav a {
   display: block;
   padding: 0.2em;
@@ -44,11 +51,13 @@ nav a {
   text-align: center;
 }
 
+/*Especificidad (0,1,2)*/
 nav a:hover{
   color: #000000;
   background-color: #CB80C5;
 }
 
+/*Especificidad (0,0,1)*/
 footer {
     background-color: #782F7F;
     font-size: 1em;
@@ -57,10 +66,13 @@ footer {
     text-align: left;
 }
 
+/*Especificidad (0,0,2)*/
 footer p{
   background-color: #DB9FDB;
   color: #000000;
 }
+
+/*Especificidad (0,0,2)*/
 main article{
   padding: 1em;
 }

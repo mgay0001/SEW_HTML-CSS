@@ -2,7 +2,7 @@
 header { grid-area: header; }
 article { grid-area: article; }
 footer { grid-area: footer; }
-
+/*Especificidad (0,0,1)*/
 body {
   display: grid;
   font-family: "Cambria Math", serif;
@@ -17,6 +17,7 @@ body {
 
 
 @media only screen and (max-width: 700px){
+  /*Especificidad (0,0,1)*/
   body {
     grid-template-areas: 
     "header"
@@ -24,10 +25,12 @@ body {
     "footer";
     gap: 0.625em;
   }
+  /*Especificidad (0,0,1)*/
   table, img,  video{
       max-width: 75%;
       height: auto;
       width: auto;
-      gap:0.625em;
+      gap: 0.625em;
+      display: block;
   }
 }

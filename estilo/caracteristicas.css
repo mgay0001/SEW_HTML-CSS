@@ -1,10 +1,11 @@
-/*Laura Gómez Menéndez, UO275725*/
+/*Especificidad (0,0,1)*/
 dl{
     background-color: #782F7F;
     font-size: 1.25em;
     color: #FFF700;
 }
 
+/*Especificidad (0,0,1)*/
 table, th, td, tr{
     border-width: 0.0625em;
     border-style: solid;
