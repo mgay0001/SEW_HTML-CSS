@@ -22,7 +22,7 @@ body {
     "header"
     "article"
     "footer";
-    gap: 1.2em;
+    gap: 0.625em;
   }
   table, nav, nav a, img,  video{
       max-width: 75%;

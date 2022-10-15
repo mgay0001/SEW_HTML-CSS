@@ -36,13 +36,12 @@ nav, footer {
     display: block;
 }
 
-
-/*Especificidad (0,0,2)*/
-nav a , footer p{
+nav a {
   display: block;
   padding: 0.2em;
   background-color: #DB9FDB;
   color: #000000;
+  text-align: center;
 }
 
 nav a:hover{
@@ -58,6 +57,10 @@ footer {
     text-align: left;
 }
 
+footer p{
+  background-color: #DB9FDB;
+  color: #000000;
+}
 main article{
   padding: 1em;
 }
