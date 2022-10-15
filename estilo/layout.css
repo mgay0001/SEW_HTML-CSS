@@ -15,7 +15,7 @@ body {
   color: #FFF700;
 }
 
-/*
+
 @media only screen and (max-width: 700px){
   body {
     grid-template-areas: 
@@ -24,10 +24,10 @@ body {
     "footer";
     gap: 0.625em;
   }
-  table, nav, nav a, img,  video{
+  table, img,  video{
       max-width: 75%;
       height: auto;
       width: auto;
       gap:0.625em;
   }
-}*/
+}
