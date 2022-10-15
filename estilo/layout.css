@@ -22,8 +22,7 @@ body {
     "header"
     "article"
     "footer";
-    grid-template-columns: none;
-    grid-row-gap: 0.625em;
+    gap: 0.625em;
   }
   table, nav, nav a, img,  video{
       max-width: 75%;
