@@ -5,21 +5,32 @@ header { grid-area: header; }
 article { grid-area: article; }
 
 /*Especificidad (0,0,1)*/
+nav { grid-area: nav; }
+
+/*Especificidad (0,0,1)*/
 footer { grid-area: footer; }
 
 /*Especificidad (0,0,1)*/
 body {
   display: grid;
   grid-template-areas:
-  "header"
-  "article"
-  "footer";
+  "header header"
+  "nav article"
+  "footer footer";
   gap: 0.625em;
+  grid-template-columns: 1fr 5fr;
 }
 
 @media only screen and (max-width: 700px){
+  body{
+    grid-template-areas:
+      "header"
+      "article"
+      "footer";
+  }
+  
   /*Especificidad (0,0,1)*/
-  table, img,  video{
+  nav, table, img,  video{
       max-width: 75%;
       height: auto;
       width: auto;
