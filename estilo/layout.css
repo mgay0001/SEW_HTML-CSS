@@ -21,16 +21,17 @@ body {
   grid-template-columns: 1fr 5fr;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 43.75em){
   body{
     grid-template-areas:
+      "nav"
       "header"
       "article"
       "footer";
   }
   
   /*Especificidad (0,0,1)*/
-  nav, table, img,  video{
+  table, img,  video{
       max-width: 75%;
       height: auto;
       width: auto;
