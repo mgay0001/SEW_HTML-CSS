@@ -28,6 +28,8 @@ body {
       "header"
       "article"
       "footer";
+    grid-template-columns: none;
+
   }
   
   /*Especificidad (0,0,1)*/
