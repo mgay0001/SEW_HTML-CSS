@@ -3,9 +3,9 @@
 body {
   display: grid;
   grid-template-areas:
-  "header header header"
-  "nav article article "
-  "footer footer footer";
+  "header header"
+  "nav article "
+  "footer footer";
   gap: 0.625em;
   grid-template-columns: 1fr 5fr;
 }
@@ -24,7 +24,7 @@ article {
 
 nav{
   grid-area: nav;
-  max-width: 100%;
+ /* max-width: 100%;*/
 }
 
 footer {
@@ -33,25 +33,5 @@ footer {
   max-width: 1024px;*/
 }
 
-/*
-INTENTAR HACERLO SIN MEDIAQUERY
-*/
-/*
-@media only screen and (max-width: 43.75em){
-  body{
-    grid-template-areas:
-      "nav"
-      "header"
-      "article"
-      "footer";
-    grid-template-columns: none;
 
-  }
-  
-  table, img,  video{
-      max-width: 75%;
-      height: auto;
-      width: auto;
-      gap: 0.625em;
-  }
-}*/
+
