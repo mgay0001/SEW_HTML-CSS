@@ -21,6 +21,26 @@ body {
   grid-template-columns: 1fr 5fr;
 }
 
+header {
+  width: 15%;
+  max-width: 1024px;
+}
+
+article {
+  width: 50%;
+  max-width: 1024px;
+}
+
+nav {
+  width: 30%;
+  max-width: 1024px;
+}
+
+footer {
+  width: 5%;
+  max-width: 1024px;
+}
+
 /*
 INTENTAR HACERLO SIN MEDIAQUERY
 */
