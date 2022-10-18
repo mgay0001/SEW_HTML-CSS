@@ -7,9 +7,7 @@ body {
 
 /*Especificidad (0,0,1)*/
 p {
-    background-color: #782F7F;
     font-size: 1.25em;
-    color: #FFF700;
 }
 
 /*Especificidad (0,0,1)*/
@@ -31,19 +29,11 @@ h2 {
     background-color: #592259;
     text-align: center;
     padding: 1.25em 0;
-    font-size: 1.5em;
-}
-
-/*Especificidad (0,0,1)*/
-header{
-  display: block;
-  text-align: center;
 }
 
 /*Especificidad (0,0,1)*/
 nav, footer {
     background-color: #DB9FDB;
-    color: rgb(0, 0, 0);
     padding: 0.5em;
     font-size: 1.5em;
   }
@@ -84,24 +74,19 @@ main article{
 
 /*Especificidad (0,0,1)*/
 ul {
-  background-color: #782F7F;
   font-size: 1.25em;
-  color: #FFF700;
 }
 
 /*Especificidad (0,0,1)*/
 dl{
   background-color: #782F7F;
   font-size: 1.25em;
-  color: #FFF700;
 }
 
 /*Especificidad (0,0,1)*/
 table, caption, th, td, tr{
-  border-width: 0.0625em;
   border-style: solid;
   border-color: rgb(0, 0, 0);
-  font-size: 1em;
 }
 
 /*Especificidad (0,0,1)*/

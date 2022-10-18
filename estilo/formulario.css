@@ -6,13 +6,11 @@ form{
 /*Especificidad (0,0,1)*/
 legend{
     font-size: 1.25em;
-    color: #FFF700;
 }
 
 /*Especificidad (0,0,1)*/
 input{
     font-size: 0.7em;
-    color: #000000;
 }
 
 
