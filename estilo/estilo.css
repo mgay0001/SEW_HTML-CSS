@@ -36,6 +36,7 @@ h2 {
 
 /*Especificidad (0,0,1)*/
 header{
+  display: block;
   text-align: center;
 }
 
@@ -49,7 +50,6 @@ nav, footer {
 
 /*Especificidad (0,0,2)*/
 nav a {
-  display: block;
   padding: 0.2em;
   background-color: #DB9FDB;
   color: #000000;
