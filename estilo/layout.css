@@ -18,14 +18,13 @@ header {
 
 article {
   grid-area: article;
-  /*width: 50%;
-  max-width: 1024px;*/
+   /*width: 30%;*/
+   /*max-width: 60%;*/
 }
 
-nav {
+nav{
   grid-area: nav;
-  /*width: 30%;
-  max-width: 1024px;*/
+  max-width: 100%;
 }
 
 footer {
