@@ -6,6 +6,7 @@ img {
     padding: 1.3em; 
 }
 
+/*Especificidad (0,0,1)*/
 video{
     width: 100%;
     max-width: 37.5em;

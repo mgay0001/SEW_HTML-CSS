@@ -6,7 +6,7 @@ dl{
 }
 
 /*Especificidad (0,0,1)*/
-table, th, td, tr{
+table, caption, th, td, tr{
     border-width: 0.0625em;
     border-style: solid;
     border-color: rgb(0, 0, 0);

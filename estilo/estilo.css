@@ -1,4 +1,11 @@
 /*Especificidad (0,0,1)*/
+body {
+  font-family: "Cambria Math", serif;
+  background-color: #782F7F;
+  color: #FFF700;
+}
+
+/*Especificidad (0,0,1)*/
 p {
     background-color: #782F7F;
     font-size: 1.25em;
@@ -77,12 +84,7 @@ main article{
   padding: 1em;
 }
 
-/*Especificidad (0,0,1)*/
-body{
-  font-family: "Cambria Math", serif;
-  background-color: #782F7F;
-  color: #FFF700;
-}
+
 
 
 
