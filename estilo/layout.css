@@ -3,9 +3,9 @@
 body {
   display: grid;
   grid-template-areas:
-  "header header"
-  "nav article"
-  "footer footer";
+  "header header header"
+  "nav article article "
+  "footer footer footer";
   gap: 0.625em;
   grid-template-columns: 1fr 5fr;
 }
