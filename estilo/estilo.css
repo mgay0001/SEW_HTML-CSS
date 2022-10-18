@@ -43,7 +43,6 @@ header{
 nav, footer {
     background-color: #DB9FDB;
     color: rgb(0, 0, 0);
-    text-align: center;
     padding: 0.5em;
     font-size: 1.5em;
   }
@@ -54,7 +53,6 @@ nav a {
   padding: 0.2em;
   background-color: #DB9FDB;
   color: #000000;
-  text-align: center; 
 }
 
 /*Especificidad (0,1,2)*/
