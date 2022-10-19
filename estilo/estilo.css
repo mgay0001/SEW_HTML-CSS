@@ -35,12 +35,11 @@ h2 {
 nav, footer {
     background-color: #DB9FDB;
     padding: 0.5em;
-    font-size: 1.5em;
+    font-size: 0.8em;
   }
 
 /*Especificidad (0,0,2)*/
 nav a {
-  padding: 0.2em;
   background-color: #DB9FDB;
   color: #000000;
 
@@ -48,7 +47,6 @@ nav a {
 
 /*Especificidad (0,1,2)*/
 nav a:hover{
-  color: #000000;
   background-color: #CB80C5;
 }
 
