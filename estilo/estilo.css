@@ -36,10 +36,15 @@ nav, footer {
 /*Especificidad (0,0,2)*/
 nav ul {
   font-size: 1.7em;
-  list-style-type: none; 
+  list-style-type: none;
   padding: 0.9em;
+ 
+ 
 }
 
+nav ul li{
+  padding: 0.3em;
+}
 /*Especificidad (0,0,3)*/
 nav ul a {
   background-color: #DB9FDB;
