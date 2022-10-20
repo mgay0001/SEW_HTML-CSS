@@ -66,6 +66,8 @@ ul {
 nav ul {
   font-size: 1.5em;
   list-style-type: none; 
+  padding: 0.3em;
+
 }
 
 /*Especificidad (0,0,1)*/
