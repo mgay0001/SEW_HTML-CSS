@@ -6,31 +6,30 @@ body {
   "header header"
   "nav article "
   "footer footer";
-  gap: 0.625em;
-  grid-template-columns: 1fr 6fr;
+  gap: 0.8em;
+  grid-template-columns: 1fr 7fr;
 }
 
-header {
+/*Especificidad (0,0,1)*/
+header{ 
   grid-area: header;
-  /*width: 15%;
-  max-width: 1024px;*/
+  justify-self: center;
+  align-self: center;
 }
 
+/*Especificidad (0,0,1)*/
 article {
   grid-area: article;
-   /*width: 30%;*/
-   /*max-width: 60%;*/
 }
 
-nav{
+/*Especificidad (0,0,1)*/
+nav{ 
   grid-area: nav;
- /* max-width: 100%;*/
-}
+} 
 
+/*Especificidad (0,0,1)*/
 footer {
   grid-area: footer;
-  /*width: 5%;
-  max-width: 1024px;*/
 }
 
 

@@ -19,30 +19,24 @@ a {
 /*Especificidad (0,0,1)*/
 h1 {
   background-color: #592259;
-  text-align: center;
-  padding: 1.25em 0;
   font-size: 2.5em;
 }
 
 /*Especificidad (0,0,1)*/
 h2 {
     background-color: #592259;
-    text-align: center;
-    padding: 1.25em 0;
 }
 
 /*Especificidad (0,0,1)*/
 nav, footer {
     background-color: #DB9FDB;
-    padding: 0.5em;
     font-size: 0.8em;
-  }
+}
 
 /*Especificidad (0,0,2)*/
 nav a {
   background-color: #DB9FDB;
   color: #000000;
-
 }
 
 /*Especificidad (0,1,2)*/
@@ -55,24 +49,23 @@ footer {
     background-color: #782F7F;
     font-size: 1em;
     color: rgb(0, 0, 0);
-    padding: 0.315em 0;
-    text-align: left;
 }
 
 /*Especificidad (0,0,2)*/
 footer p{
   background-color: #DB9FDB;
-  color: #000000;
 }
 
-/*Especificidad (0,0,2)*/
-main article{
-  padding: 1em;
-}
 
 /*Especificidad (0,0,1)*/
 ul {
   font-size: 1.25em;
+}
+
+/*Especificidad (0,0,2)*/
+nav ul {
+  font-size: 1.5em;
+  list-style-type: none; 
 }
 
 /*Especificidad (0,0,1)*/
@@ -85,14 +78,6 @@ dl{
 table, caption, th, td, tr{
   border-style: solid;
   border-color: rgb(0, 0, 0);
-}
-
-/*Especificidad (0,0,1)*/
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1.3em; 
 }
 
 /*Especificidad (0,0,1)*/
