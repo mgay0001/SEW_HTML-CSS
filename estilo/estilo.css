@@ -28,7 +28,7 @@ h2 {
 }
 
 /*Especificidad (0,0,1)*/
-nav, footer {
+nav {
     background-color: #DB9FDB;
     font-size: 0.8em;
 }
